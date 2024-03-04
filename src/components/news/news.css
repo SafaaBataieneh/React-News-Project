@@ -1,0 +1,20 @@
+.card-container {
+  @apply grid grid-cols-4 max-sm:grid-cols-2 max-lg:grid-cols-3 gap-10
+}
+
+.card-container .card {
+  box-shadow: 0 0 10px 0.5px #fdba74;
+  @apply border border-orange-500 rounded-md p-10 duration-150 cursor-pointer h-full
+}
+
+.card-container .card:hover {
+  box-shadow: 0 0 10px 2px rgb(249 115 22);
+}
+
+.card-container .card h3 {
+  @apply font-semibold text-orange-600 text-lg mb-2
+}
+
+.card-container .card p {
+  @apply text-orange-900 line-clamp-2
+}

@@ -1,0 +1,15 @@
+.footer {
+  @apply bg-gray-200 py-20 grid grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2
+}
+
+.footer ul {
+  @apply gap-3 grid
+}
+
+.footer ul li a {
+  @apply text-orange-900 hover:text-orange-500 duration-150
+}
+
+.footer p {
+  @apply text-orange-900 font-semibold
+}
